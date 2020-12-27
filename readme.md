@@ -51,4 +51,13 @@ type CocPlayer struct {
 	BestVersusTrophies int
 	Clan               cocPlayerClan
 }
+
+// The struct for require clans
+type ReqClans struct {
+	Name      string
+	MinLevel  int
+	MaxLevel  int
+	Limit     int
+	MinPoints int
+}
 ```
