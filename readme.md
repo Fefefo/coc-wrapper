@@ -1,4 +1,4 @@
-# CocWrapper
+# Golang bindings for the Clash of Clans API
 
 A scraping wrapper for Gophers which provides a layer of abstraction for the [Clash of clans API](https://developer.clashofclans.com/#/)
 
