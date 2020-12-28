@@ -11,6 +11,7 @@ type CocClan struct {
 	Name             string       `json:"name"`
 	Type             string       `json:"type"`
 	Level            int          `json:"clanLevel"`
+	Points           int          `json:"clanPoints"`
 	RequiredTrophies int          `json:"requiredTrophies"`
 	WarWins          int          `json:"warWins"`
 	WarWinStreak     int          `json:"warWinStreak"`
